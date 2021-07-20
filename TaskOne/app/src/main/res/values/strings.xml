@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Task One</string>
+    <string name="text_view">bla bla</string>
+    <string name="edit_text_hint">Top Secret Information</string>
+    <string name="button_text">button</string>
+    <string name="switch_text">switch</string>
+    <string name="switch_on_text">Y</string>
+    <string name="switch_off_text">N</string>
+    <string name="first_checkbox_text">First</string>
+    <string name="second_checkbox_text">Third</string>
+    <string name="toggle_button_first">+</string>
+    <string name="toggle_button_second">-</string>
 </resources>

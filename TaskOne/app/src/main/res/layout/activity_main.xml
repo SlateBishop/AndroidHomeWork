@@ -17,9 +17,9 @@
         android:ems="10"
         android:gravity="center_horizontal"
         android:keepScreenOn="true"
-        android:text="bla bla"
+        android:text="@string/text_view"
         android:textColor="#000000"
-        android:textSize="20sp"
+        android:textSize="@dimen/text_view_size"
         android:textStyle="italic"
         tools:text="bla bla bla very long text bla bla bla bla bla bla" />
 
@@ -27,17 +27,17 @@
         android:id="@+id/text_input_1"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_margin="10dp"
+        android:layout_margin="@dimen/edit_text_margin"
         android:layout_weight="10"
-        android:hint="Top Secret Information"
+        android:hint="@string/edit_text_hint"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/button_1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="20dp"
-        android:text="button"
+        android:layout_marginHorizontal="@dimen/button_margin_horizontal"
+        android:text="@string/button_text"
         android:textColor="@color/teal_700"
         android:textStyle="bold"
         app:backgroundTint="#0B365C" />
@@ -46,13 +46,13 @@
         android:id="@+id/switch_compat"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginHorizontal="40dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginHorizontal="@dimen/switch_margin_horizontal"
+        android:layout_marginTop="@dimen/switch_margin_top"
         android:layout_weight="10"
         android:checked="true"
-        android:text="switch"
-        android:textOff="Y"
-        android:textOn="N"
+        android:text="@string/switch_text"
+        android:textOff="@string/switch_on_text"
+        android:textOn="@string/switch_off_text"
         app:showText="true" />
 
     <LinearLayout
@@ -73,21 +73,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="First" />
+            android:text="@string/first_checkbox_text" />
 
         <CheckBox
             android:id="@+id/checkBox2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="@dimen/checkbox_margin"
             android:theme="@style/MyCheckBox" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:text="Third" />
+            android:text="@string/second_checkbox_text" />
 
 
     </LinearLayout>
@@ -98,8 +98,8 @@
         android:layout_height="wrap_content"
         android:background="#ffffff"
         android:checked="true"
-        android:textOff="+"
-        android:textOn="-" />
+        android:textOff="@string/toggle_button_first"
+        android:textOn="@string/toggle_button_second" />
 
 
 </LinearLayout>
